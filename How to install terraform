@@ -5,3 +5,6 @@ choco install azure-cli
 choco install git
 choco install terraform
 choco install vscode
+
+####once the installation of the package complete 
+az login
