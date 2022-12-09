@@ -1,0 +1,8 @@
+2 mkdir ssh-keys
+   3 cd .\ssh-keys\
+   4 ssh-keygen -m PEM -t rsa -b 4096 -C "azureuser@myserver" -f "terraform-azure.pem"
+   5 ls
+   6 cat .\terraform-azure.pem
+   7 mv .\terraform-azure.pem.pub .\terraform-azure.pub
+   8 ls
+   9 cd ..
